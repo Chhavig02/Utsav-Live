@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774883295455",
+    "project_id": "velora-f6d23",
+    "storage_bucket": "velora-f6d23.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774883295455:android:427ffb1943da491d79296a",
+        "android_client_info": {
+          "package_name": "com.chhavigarg.utsav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774883295455-vh7r3q96arqc27rs1rlecjb6mp36umku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeL4239Us9eb7dd5CsMvwush664rUprJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774883295455-vh7r3q96arqc27rs1rlecjb6mp36umku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

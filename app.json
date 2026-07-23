@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Utsav",
+    "slug": "utsav",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "utsav",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chhavigarg.utsav"
+    },
+    "android": {
+      "package": "com.chhavigarg.utsav",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#EDF6F1",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen",
+      "expo-image",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraMavenRepos": []
+          }
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ]
+  }
+}
