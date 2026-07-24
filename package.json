@@ -8,11 +8,10 @@
     "@react-native-firebase/auth": "^25.1.0",
     "@react-native-firebase/firestore": "^25.1.0",
     "@react-native-firebase/storage": "^25.1.0",
-    "@shopify/flash-list": "^2.3.2",
+    "@shopify/flash-list": "2.0.2",
     "@tanstack/react-query": "^5.101.4",
     "eslint-config-expo": "~57.0.0",
     "expo": "~57.0.8",
-    "expo-av": "^16.0.8",
     "expo-blur": "~57.0.2",
     "expo-build-properties": "~57.0.7",
     "expo-constants": "~57.0.7",
@@ -47,8 +46,8 @@
   },
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
